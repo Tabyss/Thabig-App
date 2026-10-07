@@ -1,0 +1,42 @@
+# --- PYTHON & BACKEND ---
+# Virtual environment
+backend/venv/
+backend/env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & database lokal
+backend/.env
+backend/instance/
+*.sqlite3
+
+# Alembic migrations local state (opsional, tapi amannya di-ignore jika ingin clean)
+# ------------------------
+
+# --- NODE.JS & FRONTEND ---
+# Dependensi
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Environment variables frontend
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# --- IDE & OS ---
+# Visual Studio Code
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+.env
